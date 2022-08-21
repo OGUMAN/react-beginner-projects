@@ -20,7 +20,7 @@ function App() {
       })
       .catch((err) => {
         console.warn(err);
-        alert('Ошибка при получении пользователей');
+        alert('Error getting users');
       }).finally(()=>setLoading(false))
   }, []);
 
